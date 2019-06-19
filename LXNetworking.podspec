@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
     s.version      = "1.0.7"
     s.ios.deployment_target = '8.0'
     s.summary      = "好用网络请求库，基于AFNetworking v3.2.1。提供常用请求，上传，下载。缓存，设置缓存策略，缓存时间等功能"
-    s.homepage     = "https://github.com/xinge1/LXNetworking"
-    s.social_media_url = 'https://github.com/xinge1/LXNetworking'
+    s.homepage     = "https://github.com/EvoIos/MWPhotoBrowser"
+    s.social_media_url = 'https://github.com/EvoIos/MWPhotoBrowser'
     s.license      = "MIT"
     # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
     s.author       = { "xinge1" => "3093496743@qq.com" }
-    s.source       = { :git => 'https://github.com/xinge1/LXNetworking.git', :tag => s.version}
+    s.source       = { :git => 'https://github.com/EvoIos/MWPhotoBrowser.git', :tag => s.version}
     s.requires_arc = true
     s.source_files = 'LXNetworking/**/*.{h,m}'
     s.public_header_files = 'LXNetworking/**/*.{h}'
