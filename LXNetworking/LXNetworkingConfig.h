@@ -95,6 +95,8 @@ typedef NS_ENUM(NSUInteger, LXRequestCachePolicy) {
  */
 @property (nonatomic, strong) Class LXError;
 
+@property (nonatomic, strong) NSSet <NSString *> *HTTPMethodsEncodingParametersInURI;
+
 @end
 
 NS_ASSUME_NONNULL_END

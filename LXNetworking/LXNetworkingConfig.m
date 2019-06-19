@@ -51,6 +51,7 @@ const CGFloat LXRequestTimeoutInterval = 10.0f;
     configuration.responseSerializer = [self.responseSerializer copy];
     configuration.responseSerializer.acceptableContentTypes = self.responseSerializer.acceptableContentTypes;
     configuration.LXError = self.LXError;
+    configuration.requestSerializer.HTTPMethodsEncodingParametersInURI = self.HTTPMethodsEncodingParametersInURI;
     return configuration;
 }
 

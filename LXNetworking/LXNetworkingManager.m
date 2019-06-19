@@ -88,6 +88,7 @@ NSString * const LXDNetworkCacheKeys = @"LXDNetworkCacheKeys";
         securityPolicy.allowInvalidCertificates = YES;
         securityPolicy.validatesDomainName = NO;
         _requestManager.securityPolicy = securityPolicy;
+        requestManager.requestSerializer.HTTPMethodsEncodingParametersInURI = [NSSet setWithObjects:@"GET", @"HEAD", nil];
     }
     return _requestManager;
 }
